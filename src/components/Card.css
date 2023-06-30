@@ -1,0 +1,76 @@
+.position{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 18px;
+}
+
+.back .title{
+    font-weight: 700;
+    text-align: center;
+    font-size: 12px;
+}
+
+.front .title{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+}
+
+.text{
+    margin: 10px 50px;
+    font-weight: 300;
+}
+
+.opcoes{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.opcao{
+    width: 20%;
+    border-radius: 12px;
+    border: 3px solid #000;
+    text-align: center;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.card.black, .card.red, .card.green, .card.yellow{
+    border: 5px solid;
+    border-color: none;
+}
+
+.black .opcoes, .red .opcoes, .green .opcoes, .yellow .opcoes{
+    display: none;
+}
+
+.seta{
+    text-align: end;
+    display: none;
+    font-size: 40px;
+}
+
+.black .seta, .red .seta, .green .seta, .yellow .seta, .front .seta{
+    display: inline;
+}
+
+.red, .card.red{
+    border-color: #F64848;
+    box-shadow: #F64848;
+}
+
+.green, .card.green{
+    border-color: #62DB38;
+    box-shadow: #62DB38;
+}
+
+.yellow, .card.yellow{
+    border-color: #FFEF61;
+    box-shadow: #FFEF61;
+}
