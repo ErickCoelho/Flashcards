@@ -1,13 +1,17 @@
 .initial-page{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
-img{
-    height: 279px;
-    margin: 180px 0 195px 0;
+.initial-page-container{
+    margin-bottom: 100px;
+}
+
+img.logo{
+    margin-bottom: 195px;
 }
 
 button{
@@ -21,15 +25,16 @@ button{
     background-color: white;
     font-size: 20px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
-ion-icon{
+button ion-icon{
     margin-left: 10px;
     color: #FFEF61;
 }
 
 @media (max-width: 800px){
-    img{
-        margin: 117px 0 130px 0;
+    img.logo{
+        margin-bottom: 130px;
     }
 }
